@@ -1,0 +1,120 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url(https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2F343544f9ca46436aa0050aa9098ae48f.jpeg?v=1574672919968);
+	background-size: cover;
+	font-family: 'Noto Sans HK', sans-serif;
+	-moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+	zoom: 0.8; /* Other non-webkit browsers */
+	zoom: 80%; /* Webkit browsers */
+}
+
+#header {
+	max-width: 1080px;
+	height: 100px;
+	background-color: black;
+	background-repeat: repeat-x;
+}
+
+#logo {
+	/* float: left;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	border: 0px black none;
+	background-color: black;
+}
+
+#logo img {
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+
+#logo a {
+	font: bold 2em 'Pacifico', cursive;
+	color: pink;
+	text-decoration: none;
+}
+
+#Option {
+	/*float: right;*/
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#Option ul {
+	float: right;
+}
+
+#Option li {
+	list-style-type: none;
+	float: right;
+}
+
+#Option a {
+	display: block;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	color: pink;
+	text-align: center;
+	border-bottom: 100px black;
+}
+
+#magnifier {
+	float: right;
+	padding: 1px;
+	margin: 1%;
+	width: 100%;
+}
+
+#magnifier img {
+	float: right;
+	border-radius: 4px;
+	width: 25px;
+	height: 20px;
+	background-color: white;
+	position: relative;
+	right: 10%;
+}
+
+#magnifier input {
+	float: right;
+	border-radius: 5px;
+	position: relative;
+	right: 13%;
+}
+
+#container {
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 50px;
+	clear: both;
+}
+
+.im {
+	float: left;
+	/*border: solid red 1px;*/
+	margin-right: 1px;
+	margin-bottom: 1px;
+	/*height: 160px;*/
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.pasting {
+	width: 1251px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.max {
+	max-width: 1251px;
+}
