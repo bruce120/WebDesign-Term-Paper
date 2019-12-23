@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2F343544f9ca46436aa0050aa9098ae48f.jpeg?v=1574672919968);
+  font-family: "Noto Sans HK", sans-serif;
+}
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  background-repeat: repeat-x;
+}
+
+.logo {
+  float: left;
+  font: bold 2em "Pacifico", cursive;
+}
+.logo img {
+  float: left;
+  width: 150px;
+  height: 100px;
+}
+
+.Option {
+  float: right;
+}
+
+.magnifier {
+  float: right;
+  padding: 1px;
+  margin: 1%;
+}
+
+.magnifier img {
+  float: right;
+  background-color: white;
+  border-radius: 5px;
+  width: 25px;
+  height: 20px;
+}
+
+.magnifier input {
+  margin-right: 5px;
+  float: right;
+  border-radius: 5px;
+}
+
+li {
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+.container {
+  clear: both;
+}
+
+.container-left img {
+  margin: 1%;
+  float: left;
+  height: 400px;
+  width: 400px;
+}
+
+.container-right1 img {
+  clear: left;
+  height: 100px;
+  width: 120px;
+}
+
+.container-right2 {
+  display: inline-block;
+  clear: left;
+  /*   position: absolute; */
+  right: 15%;
+  bottom: 5%;
+}
+
+.txt {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}

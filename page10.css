@@ -1,0 +1,112 @@
+body {
+    background-image: url(https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Fmarci-angeles-SJb8-ujFF2g-unsplash.jpg?v=1575597054637);
+    background-size: cover;
+    font-family: "Noto Sans HK", sans-serif;
+  }
+  
+  .header {
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .logo img {
+    float: left;
+    width: 32%;
+  }
+  
+  .logo a {
+    float: left;
+    font: bold 2em "Pacifico", cursive;
+    color: pink;
+    text-decoration: none;
+  }
+  
+  .Option {
+    float: right;
+  }
+  
+  .Option1 a {
+    color: pink;
+    text-decoration: none;
+    margin: 3px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  .Option1 li {
+    float: right;
+  }
+  
+  .magnifier {
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .magnifier img {
+    width: 3%;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 87%;
+    top: 5px;
+  }
+  
+  .magnifier input {
+    border-radius: 5px;
+    position: relative;
+    left: 58%;
+  }
+  
+  .container {
+    margin-top: 250px;
+    margin-left: 100px;
+  }
+  
+  .container1 {
+    float: left;
+    position:relative;
+  }
+  
+  .container1 img {
+    position:absolute;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  
+  .container1 img:nth-of-type(2):hover{
+    opacity:0; /*滑鼠滑入時，透明度變0*/
+  }
+  
+  .container2 {
+    float: left;
+    writing-mode: vertical-rl;
+    border-radius: 20px;
+    border: black dashed 5px;
+    padding: 50px;
+    margin: 60px 30px 60px 400px;  
+  }
+  
+  .container2-1 {
+    float: left;
+    writing-mode: vertical-rl;
+    border-radius: 20px;
+    border: black dashed 5px;
+    padding: 50px;
+    margin: 60px 30px 60px 30px;  
+  }
+  
+  

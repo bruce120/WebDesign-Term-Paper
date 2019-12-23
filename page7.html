@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="page7.css" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
+        crossorigin="anonymous"></script>
+    <!--Q&A外部取用-->
+
+
+    <title>Fan Chuan Weedding Dress service</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--header-->
+    <div id="header">
+        <div class="logo">
+            <a href="index.html" class="logos">
+                <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Ficon1-2.png?v=1574992239340"
+                    alt="logo1-2">FAN CHUAN
+            </a>
+        </div>
+        <div class="Option">
+            <ul>
+                <div class="Option1">
+                    <li><a href="elements.html">Q&A</a></li>
+                </div>
+                <div class="Option1">
+                    <li><a href="elements.html">聯絡我們</a></li>
+                </div>
+                <div class="Option1">
+                    <li><a href="elements.html">關於我們</a></li>
+                </div>
+                <div class="Option1">
+                    <li><a href="elements.html">參觀預約</a></li>
+                </div>
+                <div class="Option1">
+                    <li><a href="generic.html">婚紗禮服</a></li>
+                </div>
+                <div class="Option1">
+                    <li><a href="service.html">服務項目</a></li>
+                </div>
+                <div class="magnifier">
+                    <img src="https://cdn.glitch.com/784c8af2-ea2f-4262-9675-73d1da306d19%2Fsearch.png?v=1574522272427"
+                        alt="search">
+                    <input name="magnifier" type="text">
+                </div>
+            </ul>
+        </div>
+        <!--container-->
+        <div id="container">
+            <div class="container-left">
+                <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Ficon5.png?v=1574995114589"
+                    alt="icon5">婚禮影片<br>
+                <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Ficon6.png?v=1574995118967"
+                    alt="icon6">婚禮音樂<br>
+            </div>
+            <div class="container-top">
+                <p>FAN&nbsp;CHUAN&nbsp;&nbsp;的Q&A</p>
+            </div>
+            <div class="container-bottom">
+                <div id="QandA">
+                    <p class="Question" style="cursor: pointer;">Question - 1</p>
+                    <div class="Answer">
+                        <p>Answer-1</p>
+                    </div>
+                </div>
+                <div id="QandB">
+                    <p class="Question">Question - 2</p>
+                    <div class="Answer">
+                        <p>Answer-2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function ($) {
+
+            $("p.Question").css({ cursor: "pointer" }).click(function () {
+
+                $(this).next().toggle("normal");
+
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

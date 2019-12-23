@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2F343544f9ca46436aa0050aa9098ae48f.jpeg?v=1574672919968);
+  background-size: cover;
+  font-family: "Noto Sans HK", sans-serif;
+}
+#QandA .Question {
+  /*標題的CSS定義*/
+  width: 100%;
+  border-bottom: 1px #aaa dotted;
+}
+#QandA .Answer {
+  /*內文的CSS定義*/
+  display: none;
+  width: 100%;
+  padding: 10px 0px;
+  background: #efefef;
+  border-bottom: 1px #aaa dotted;
+}
+#QandA:hover {
+  /*滑鼠移至區塊變色*/
+  background: pink;
+}
+#QandB .Question {
+  /*標題的CSS定義*/
+  width: 100%;
+  border-bottom: 1px #aaa dotted;
+}
+#QandB .Answer {
+  /*內文的CSS定義*/
+  display: none;
+  width: 100%;
+  padding: 10px 0px;
+  background: #efefef;
+  border-bottom: 1px #aaa dotted;
+}
+#QandB:hover {
+  /*滑鼠移至區塊變色*/
+  background: pink;
+}
