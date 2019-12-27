@@ -1,89 +1,129 @@
+
 * {
   padding: 0;
   margin: 0;
 }
+
 body {
   background-image: url(https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2F343544f9ca46436aa0050aa9098ae48f.jpeg?v=1574672919968);
-  font-family: "Noto Sans HK", sans-serif;
+  background-size: cover;
+  font-family: 'Noto Sans HK', sans-serif;
+  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+  zoom: 0.8; /* Other non-webkit browsers */
+  zoom: 80%; /* Webkit browsers */
 }
+
 #header {
+  max-width: 1080px;
+  height: 100px;
+  background-color:black;
+  background-repeat:repeat-x;
+}
+
+#logo {
+ /* float: left;*/
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 100%;
-  height: 100px;
+  border:0px black none;
   background-color: black;
-  background-repeat: repeat-x;
 }
 
-.logo {
+#logo img{
   float: left;
-  font: bold 2em "Pacifico", cursive;
-}
-.logo img {
-  float: left;
-  width: 150px;
+  width: 150px;  
   height: 100px;
 }
 
-.Option {
+#logo a {
+  font: bold 2em 'Pacifico', cursive;
+  color: pink;
+  text-decoration:none;
+}
+
+#Option {
+  /*float: right;*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#Option ul{
   float: right;
 }
 
-.magnifier {
+#Option li {
+  list-style-type:none;
+  list-style:none;
+  float: right;
+}
+
+#Option a {
+  display:block;
+  width:100px;
+  height:50px;
+  line-height:50px;
+  text-decoration:none;
+  color:pink;
+  text-align:center;
+  border-bottom:100px black ;
+
+}
+
+#magnifier {
   float: right;
   padding: 1px;
   margin: 1%;
+  width: 100%;
 }
 
-.magnifier img {
+#magnifier img{
   float: right;
-  background-color: white;
-  border-radius: 5px;
+  border-radius: 4px;
   width: 25px;
-  height: 20px;
+  height:20px;
+  background-color: white;
+  position: relative;
+  right: 10%;
 }
 
-.magnifier input {
-  margin-right: 5px;
+#magnifier input{
   float: right;
   border-radius: 5px;
+  position: relative;
+  right: 13%;   
 }
 
-li {
-  margin-right: 10px;
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: pink;
-}
-
-.container {
-  clear: both;
-}
-
-.container-left img {
-  margin: 1%;
-  float: left;
-  height: 400px;
-  width: 400px;
-}
-
-.container-right1 img {
-  clear: left;
-  height: 100px;
-  width: 120px;
-}
-
-.container-right2 {
-  display: inline-block;
-  clear: left;
-  /*   position: absolute; */
-  right: 15%;
-  bottom: 5%;
-}
-
-.txt {
+.containerLeft {
   position: absolute;
-  right: 10%;
-  top: 20%;
+  top: 11%;
+  left: 8%;
+}
+
+.containerLeft img {
+  width: 105%;
+  height: 105%;
+}
+
+.containerRight {
+  display: inline-block;
+  position: absolute;
+  top: 11%;
+  right: 30%;
+}
+
+.textLogo {
+  
+}
+
+.textLogo img {
+  width: 55%;
+  height: 55%;
+}
+
+.textDiv {}
+
+.max {
+max-width: 1251px;
 }

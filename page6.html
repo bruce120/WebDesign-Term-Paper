@@ -1,97 +1,180 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="layout.css" />
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
     <title>Fan Chuan Weedding Dress service</title>
     <style>
-        body {
-            background-image: url(https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2F343544f9ca46436aa0050aa9098ae48f.jpeg?v=1574672919968);
-            background-size: cover;
-            font-family: 'Noto Sans HK', sans-serif;
-        }
-    </style>
-</head>
+      
+      body{
+        background-image:url(https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2F343544f9ca46436aa0050aa9098ae48f.jpeg?v=1574672919968);
+        background-size: cover;
+        font-family: 'Noto Sans HK', sans-serif;         
+      }      
+     
+      #header {
+        background-color: black;
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
 
-<body>
+      .logo {
+        float: left;
+      }
+
+      .logo img {
+        float: left;
+        width: 32%;
+      }
+
+      .logo a {
+        float: left;
+        font: bold 2em "Pacifico", cursive;
+        color: pink;
+        text-decoration: none;
+      }
+      
+      .Option1 {
+        float: right;
+      }
+
+      .Option1 a {
+        color: pink;
+        text-decoration: none;
+        margin-right: 1px;
+        display: inline-block;
+        width: 70px;
+        height: 50px;
+        line-height: 50px;
+      }
+
+      .Option1 li {
+        float: right;
+        list-style:none;
+      }
+
+      .magnifier {
+        position: relative;
+        bottom: 20px;
+      }
+
+      .magnifier img {
+        width: 2%;
+        background-color: white;
+        border-radius: 5px;
+        position: relative;
+        left: 66%;
+        top: 63px;
+      }
+
+      .magnifier input {
+        border-radius: 5px;
+        position: relative;
+        left: 49%;
+        top: 55px;
+      }     
+      
+      .containers {
+        margin-top: 10%;
+      }
+      
+      #footer {
+        background-color: black;
+        position: absolute;
+        left: 0;
+        width: 100%;
+      }
+      
+      .footer-left {
+        color: pink;
+        width: 500px;
+        float: left;
+        margin-left: 10%;
+      }
+      
+      .footer-left li {
+        list-style:none;
+      }
+      
+      .footer-right1 {
+        color: pink;
+        width: 500px;
+        float: left;
+        margin-left: 10%;
+      }
+      
+      .footer-right1 img {
+        padding-right: 5%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
     <!--header-->
     <div id="header">
-        <div class="logo">
-            <a href="index.html" class="logos">
-                <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Ficon1-2.png?v=1574992239340"
-                    alt="logo1-2">FAN CHUAN
-            </a>
-        </div>
-        <div class="Option">
-            <ul>
-                <div class="Option1">
-                    <li><a href="elements.html">Q&A</a></li>
-                </div>
-                <div class="Option1">
-                    <li><a href="elements.html">聯絡我們</a></li>
-                </div>
-                <div class="Option1">
-                    <li><a href="elements.html">關於我們</a></li>
-                </div>
-                <div class="Option1">
-                    <li><a href="elements.html">參觀預約</a></li>
-                </div>
-                <div class="Option1">
-                    <li><a href="generic.html">婚紗禮服</a></li>
-                </div>
-                <div class="Option1">
-                    <li><a href="service.html">服務項目</a></li>
-                </div>
-                <div class="magnifier">
-                    <img src="https://cdn.glitch.com/784c8af2-ea2f-4262-9675-73d1da306d19%2Fsearch.png?v=1574522272427"
-                        alt="search">
-                    <input name="magnifier" type="text">
-                </div>
-            </ul>
-        </div>
-        <!--container-->
-        <div id="container">
-            <div class="containers">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.76964787637!2d121.52343161401835!3d25.041890283968574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a970a11a84ad%3A0x58e05f2528812097!2z5ZyL56uL6Ie65YyX5ZWG5qWt5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1574994086706!5m2!1szh-TW!2stw"
-                    width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            </div>
-        </div>
-        <!--footer-->
-        <div id="footer">
-            <div class="footer-left">
-                <p>
-                    <li>店名：FAN CHUAN</li><br>
-                    <li>地址：台北市中正區濟南路一段321號</li><br>
-                    <li>電話：02-12345678</li><br>
-                    <li>E-mail：N1086700@gmail.com</li><br>
-                </p>
-            </div>
-            <div class="footer-right1">
-                <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Fling-1.jpg?v=1574994619953"
-                    alt="ling-1" width="10%"><br>
-                <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Fchuan-1.jpg?v=1574994625581"
-                    alt="chuan-1" width="10%"><br>
-                <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Ffan-1.jpg?v=1574994619322"
-                    alt="fan-1" width="10%"><br>
-            </div>
-            <div class="footer-right2">
-                <p>
-                    婚紗可以說是女生們的夢想<br>
-                    但這夢想不代表一定要有<br>
-                    另一半才能完成<br>
-                    也可以拍一個屬於自己的<br>
-                    因為我們都一定值得<img
-                        src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Flove.png?v=1574648206300"
-                        width="2%">
-                </p>
-            </div>
-        </div>
+      <div class="logo">
+        <a href="index.html" class="logos">
+          <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Ficon1-2.png?v=1574992239340" alt="logo1-2">FAN CHUAN
+        </a>
+      </div>
+      <div class="Option">
+        <ul>
+          <div class="Option1">
+            <li>
+              <a href="service.html">服務項目</a>
+              <a href="generic.html">婚紗禮服</a>
+              <a href="elements.html">參觀預約</a>
+              <a href="elements.html">關於我們</a>
+              <a href="elements.html">聯絡我們</a>
+              <a href="elements.html">Q&A</a>           
+            </li>
+          </div>          
+          <div class="magnifier">
+            <img src="https://cdn.glitch.com/784c8af2-ea2f-4262-9675-73d1da306d19%2Fsearch.png?v=1574522272427" alt="search">
+            <input name="magnifier" type="text">
+          </div>
+        </ul>        
+      </div>
     </div>
-</body>
-
+    
+    <!--container-->
+    <div id="container">
+      <div class="containers">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.76964787637!2d121.52343161401835!3d25.041890283968574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a970a11a84ad%3A0x58e05f2528812097!2z5ZyL56uL6Ie65YyX5ZWG5qWt5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1574994086706!5m2!1szh-TW!2stw" width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </div>
+    <!--footer-->
+    <div id="footer">
+      <div class="footer-left">
+        <p>
+          <br>
+          <li>店名：FAN CHUAN</li><br>
+          <li>地址：台北市中正區濟南路一段321號</li><br>
+          <li>電話：02-12345678</li><br>
+          <li>E-mail：N1086700@gmail.com</li><br>            
+        </p>
+      </div>
+      <div class="footer-right1">
+        <br>
+        <br>
+          <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Fling-1.jpg?v=1574994619953" alt="ling-1" width="20%">
+          <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Fchuan-1.jpg?v=1574994625581" alt="chuan-1" width="20%">
+          <img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Ffan-1.jpg?v=1574994619322" alt="fan-1" width="20%">
+        <br>
+          <p>
+            婚紗可以說是女生們的夢想<br>
+            但這夢想不代表一定要有另一半才能完成<br>
+            也可以拍一個屬於自己的<br>
+            因為我們都一定值得<img src="https://cdn.glitch.com/5a3a7353-52c4-498b-89df-1edc30f01b68%2Flove.png?v=1574648206300" width="15px">
+          </p>                             
+      </div>
+    </div>   
+  </body>
 </html>
